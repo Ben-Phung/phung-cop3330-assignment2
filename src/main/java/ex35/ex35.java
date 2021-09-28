@@ -17,7 +17,7 @@ public class ex35
         String input = "";
 
         ArrayList<String> names = new ArrayList<String>();
-
+        // Do while input is not empty
         do
         {
             System.out.print( "Enter a name: " );
@@ -28,7 +28,7 @@ public class ex35
                 names.add(input);
             }
         }while(!input.equals(""));
-
+        // Random number
         Random rand = new Random();
         int iRandom = rand.nextInt(names.size());
 
